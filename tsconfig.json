@@ -2,7 +2,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "outDir": "./dist",
+    "outDir": "./dist/web-app-devops",
     "rootDir": "./src",
     "strict": true,
     "noImplicitOverride": true,
@@ -28,5 +28,6 @@
     "strictInputAccessModifiers": true,
     "strictTemplates": true
   },
-  "include": ["**/*"]
+  "include": ["./src/**/*.ts"],
+  "exclude": ["./out.d.ts", "node_modules"]
 }
