@@ -2,15 +2,13 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "outDir": "./dist/web-app-devops",
-    "rootDir": "./src",
+    "outDir": "./dist/out-tsc",
     "strict": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
-    "allowJs": true,
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": false,
@@ -27,7 +25,5 @@
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true
-  },
-  "include": ["src/**/*.spec.ts", "src/**/*.d.ts"],
-  "exclude": ["./out.d.ts", "node_modules"]
+  }
 }
